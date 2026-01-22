@@ -1,0 +1,78 @@
+
+ * { margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva,Verdana, sans-serif;
+}
+
+body{
+       background-color: #000; 
+ }
+     /* header-section  */
+
+.header-section {
+    background-color: #12012d; 
+    padding: 15px 50px;
+    color: white;
+ }
+/* nav-container  */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo Styling */
+.nav-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+        
+
+/* Nav Links */
+.list ul {
+     display: flex;
+     list-style: none;
+     gap: 30px;
+}        
+
+.list ul li {
+    font-size: 14px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+
+/* Subscribe Button */
+button {
+    background: linear-gradient(120deg, #ffcc33, #ff00ff);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    gap: 8px;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button i {
+    font-size: 12px;
+}
+        
+
+       
+        
+        
+
+    
